@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSİKOLOJİ VE MENTAL SAĞLIK</title>
+    <link rel="stylesheet" href="style.css">
+    <style>  
+        *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container{
+        height: 100vh;
+        background-size: 100% 100%;
+    }
+    
+    
+    .container .navbar{
+        width: 100%;
+        height: 80px;
+        background: black;
+    }
+    
+    .navbar .PSİKOLOJİ{
+        display: inline-block;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    
+    .navbar .PSİKOLOJİ a{
+        text-decoration: none;
+        font-size: 30px;
+        font-family: sans-serif;
+        color: #f3f3f3;
+    }
+    
+    .navbar ul{
+        float: right;
+        margin-right: 20px;
+    }
+    
+    .navbar ul li{
+        list-style: none;
+        display: inline-block;
+        margin: 0 8px;
+        line-height: 80px;
+    }
+    
+    .navbar ul li a{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 6px 13px;
+    }
+    
+    .navbar ul li a.active,
+    .navbar ul li a:hover{
+        background: grey ;
+        border-radius: 2px;
+    }
+
+    body {  
+            font-family: Arial, sans-serif;  
+            margin: 0;  
+            padding: 20px;  
+            background-color: #f8f9fa;  
+        }  
+    
+        h1 {  
+            text-align: center;  
+            color: #2c3e50;  
+        }  
+        .gallery {  
+            display: flex;  
+            flex-wrap: wrap;  
+            justify-content: space-between;  
+            gap: 10px;  
+        }  
+        .gallery-item {  
+            flex: 1 1 calc(33% - 10px); /* 3 sütun */  
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);  
+            border-radius: 5px;  
+            overflow: hidden;  
+            transition: transform 0.2s;  
+        }  
+        .gallery-item:hover {  
+            transform: scale(1.05);  
+        }  
+        .gallery-item img {  
+            width: 100%;  
+            height: auto;  
+        }  
+        .caption {  
+            padding: 10px;  
+            text-align: center;  
+            background-color: #f1f1f1;  
+        }  
+        @media (max-width: 768px) {  
+            .gallery-item {  
+                flex: 1 1 calc(50% - 10px); /* 2 sütun */  
+            }  
+        }  
+        @media (max-width: 480px) {  
+            .gallery-item {  
+                flex: 1 1 100%; /* 1 sütun */  
+            }  
+        }  
+
+    </style>
+        </head>
+        <body>
+            <div class="container">
+                <div class="navbar">
+                    <div class="PSİKOLOJİ">
+                        <a href="#">PSİKOLOJİ</a>
+                    </div>
+                    <ul>
+                        <li><a href="index.html" class="active">Ana Sayfa</a></li>
+                        <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                        <li><a href="hizmetler.html">Hizmetler</a></li>
+                        <li><a href="fotograflar.html">Fotoğraflar</a></li>
+                        <li><a href="iletisim.html">İletişim</a></li>
+                    </ul>
+                </div>
+                <div class="container">  
+                    <h1>Fotoğraf Galerimiz</h1>  
+                    
+                    <div class="gallery">  
+                        <div class="gallery-item">  
+                            <img src="mental-saglik2.JPG.jpg" alt="Terapi Seansı">  
+                            <div class="caption">Terapi Seansı</div>  
+                        </div>  
+                        <div class="gallery-item">  
+                            <img src="mental-saglik.webp" alt="Grupla Terapi">  
+                            <div class="caption">Grupla Terapi</div>  
+                        </div>  
+                        <div class="gallery-item">  
+                            <img src="mental-saglik2.JPG.jpg" alt="Meditasyon">  
+                            <div class="caption">Meditasyon</div>  
+                        </div>  
+                        <div class="gallery-item">  
+                            <img src="mental-saglik.webp" alt="Danışmanlık">  
+                            <div class="caption">Danışmanlık Hizmetleri</div>  
+                        </div>  
+                        <div class="gallery-item">  
+                            <img src="mental-saglik2.JPG.jpg" alt="İletişim Kurmak">  
+                            <div class="caption">İletişim Kurmak</div>  
+                        </div>  
+                        <div class="gallery-item">  
+                            <img src="mental-saglik.webp" alt="Psiko-eğitim">  
+                            <div class="caption">Psiko-eğitim Programları</div>  
+                        </div>  
+                        <div>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/CD6dHtUXzeY?si=ywsabV4z5DDqvxTv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>  
+                </div>  
+                
+                </body>  
+                </html>  
